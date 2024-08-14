@@ -1,0 +1,139 @@
+@font-face {
+    font-family: outfit;
+    src: url(/assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family:young  ;
+    src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+html{
+    scroll-behavior: smooth;
+}
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+body{
+    background-color:#f3e5d8 ;
+    font-family: outfit;
+    margin:0;
+    padding:0;
+    display: grid;
+    place-content: center;
+    min-height: 200vh;
+}
+img{
+    max-width: 100%;
+}
+span{
+    font-weight: bold;
+}
+ul, ol{
+    list-style-position: outside;
+    padding-left: 1.25rem
+}
+ul li ,ol li {
+    padding-left:5px;
+}
+ul li::marker{
+    color:#834530;
+    font-size: 0.5em;
+    margin-left: -5px;
+    
+}
+ol li::marker{
+    color:#834530;
+    margin-left: -5px;
+    font-family:arial;
+    font-weight: bold;
+}
+h3{
+    font-family: young;
+    margin: 20px 20px -5px 0;
+    color: #834530;
+}
+hr{
+    color:#e0e0e0 ;
+    margin: 1rem;
+}
+.container{
+    background-color: white;
+    margin: 5rem;
+    max-width: 700px;
+    border-radius: 1rem;
+    line-height: 2rem;
+}
+.container .recipe-img{
+    border-radius: 1rem;
+    padding: 2rem;
+    
+}
+.container .recipe-img img {
+    border-radius: 1rem;
+}
+.introduction{
+    padding: 0rem 2rem 1rem 2rem;
+}
+.introduction h1{
+    font-family: young;
+    font-weight: 600;
+    font-size:xx-large;
+}
+.prepare{
+    background-color: #fff7fc ;
+    padding:1rem  ;
+    border-radius: 10px;
+    margin: 0.5rem 2rem;
+}
+.prepare h4{
+    margin: 20px 20px 5px 5px ;
+    color: #692a47;
+}
+.ingrediants{
+    padding:0 1rem ;
+    line-height: 2rem;
+    
+}
+.Instructions{
+    padding:0 1rem ;
+}
+.Nutrition{
+    padding:0 1rem ;
+}
+.content{
+    border-collapse: collapse;
+    
+    width: 100%;
+}
+.content td{
+    border-bottom: 1.5px solid #e0e0e0;
+    padding :10px  0;
+}
+.content tbody td{
+    border-bottom: 0cap;
+}
+.s{
+    color: #692a47;
+    font-weight: bold;
+}
+.attribution {
+    font-size: 11px; text-align: center;
+    }
+    .attribution a {
+    color: hsl(228, 45%, 44%);
+    }
+@media(max-width:540px){
+    .container{
+        margin: 0;
+        border-radius: 0;
+    }
+    .container .recipe-img{
+        padding: 0;
+        border-radius: 0;
+    }
+    .container .recipe-img img{
+        border-radius: 0;
+    }
+    }
+    
