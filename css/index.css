@@ -48,7 +48,7 @@ ol li::marker{
     font-family:arial;
     font-weight: bold;
 }
-h2{
+h1{
     font-family: young;
     margin: 20px 20px -5px 0;
     color: #834530;
@@ -86,7 +86,7 @@ hr{
     border-radius: 10px;
     margin: 0.5rem 2rem;
 }
-.prepare h4{
+.prepare h3{
     margin: 20px 20px 5px 5px ;
     color: #692a47;
 }
